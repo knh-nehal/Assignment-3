@@ -108,7 +108,7 @@
                   />
                 </svg>
               </button>
-              <a class="btn hover:bg-red-400 bg-red-500 text-white"
+              <a class="btn hover:bg-red-400 bg-red-500 border-none text-white"
                 >Get Ticket</a
               >
             </div>
@@ -245,7 +245,8 @@
                   Elevate young talents and foster a passion for the game in our
                   Junior Program at the hockey tournament.
                 </p>
-                <a class="btn hover:bg-red-400 bg-red-500 text-white"
+                <a
+                  class="btn hover:bg-red-400 bg-red-500 border-none text-white"
                   >Register Now!</a
                 >
               </div>
@@ -264,7 +265,8 @@
                   Elevate young talents and foster a passion for the game in our
                   Teenager Program at the hockey tournament.
                 </p>
-                <a class="btn hover:bg-red-400 bg-red-500 text-white"
+                <a
+                  class="btn hover:bg-red-400 bg-red-500 border-none text-white"
                   >Register Now!</a
                 >
               </div>
@@ -283,7 +285,8 @@
                   Experience the pinnacle of skill, strategy and determination
                   in our Professional Program at the hockey tournament.
                 </p>
-                <a class="btn hover:bg-red-400 bg-red-500 text-white"
+                <a
+                  class="btn hover:bg-red-400 bg-red-500 border-none text-white"
                   >Register Now!</a
                 >
               </div>
@@ -630,10 +633,10 @@
             communication and addressing inquiries with efficiency.
           </p>
         </div>
-        <div class="flex flex-col lg:flex-row gap-6">
+        <div class="mt-12 flex flex-col lg:flex-row gap-6">
           <!-- left container -->
           <div
-            class="mt-12 p-6 lg:p-12 grid grid-cols-1 grid-rows-3 gap-6 border-2 rounded-lg w-[35%]"
+            class="p-6 lg:p-12 grid grid-cols-1 grid-rows-3 gap-6 border-2 rounded-lg w-full lg:w-[35%]"
           >
             <div class="space-y-6 bg-[#bced6e1a] p-8 w-full rounded-2xl">
               <div>
@@ -664,7 +667,53 @@
             </div>
           </div>
           <!-- right container -->
-          <div></div>
+          <div class="w-full lg:w-[65%]">
+            <div class="flex flex-col lg:flex-row flex-wrap gap-6">
+              <div class="flex-1 space-y-4 basis-2/5">
+                <h5 class="font-bold text-xl">Your Name</h5>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  class="input input-md w-full bg-[#13131809]"
+                />
+              </div>
+              <div class="flex-1 space-y-4 basis-2/5">
+                <h5 class="font-bold text-xl">Your Email</h5>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="input input-md w-full bg-[#13131809]"
+                />
+              </div>
+              <div class="flex-1 space-y-4 basis-2/5">
+                <h5 class="font-bold text-xl">Subject</h5>
+                <input
+                  type="text"
+                  placeholder="Enter your subject"
+                  class="input input-md w-full bg-[#13131809]"
+                />
+              </div>
+              <div class="flex-1 space-y-4 basis-2/5">
+                <h5 class="font-bold text-xl">Phone Number</h5>
+                <input
+                  type="number"
+                  placeholder="Enter your phone number"
+                  class="input input-md w-full bg-[#13131809]"
+                />
+              </div>
+              <div class="flex-1 space-y-4 basis-full">
+                <h5 class="font-bold text-xl">Message</h5>
+                <textarea
+                  class="textarea resize-none bg-[#13131809] w-full h-[40vh]"
+                  placeholder="Write your message"
+                ></textarea>
+                <a
+                  class="btn hover:bg-red-400 bg-red-500 border-none text-white w-full font-bold text-base"
+                  >Send Message</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
