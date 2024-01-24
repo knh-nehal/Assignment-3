@@ -166,9 +166,11 @@
         </div>
         <!-- ratings bar -->
         <div
-          class="flex flex-col lg:flex-row justify-between px-10 lg:px-24 mt-10 space-y-8 lg:space-y-0"
+          class="flex lg:gap-10 flex-col lg:flex-row justify-between px-10 lg:px-24 mt-10 space-y-8 lg:space-y-0"
         >
-          <div class="flex flex-col justify-center items-center space-y-4">
+          <div
+            class="flex lg:flex-1 flex-col justify-center items-center space-y-4"
+          >
             <div
               class="radial-progress text-red-500 font-extrabold"
               style="--value: 87"
@@ -177,9 +179,13 @@
               87%
             </div>
             <h4 class="text-xl font-semibold">Prayer Facility</h4>
-            <p class="text-base font-normal">Dummy</p>
+            <p class="text-base font-normal text-[#13131899] text-center">
+              Elevate your spiritual well-being at our hockey club.
+            </p>
           </div>
-          <div class="flex flex-col justify-center items-center space-y-4">
+          <div
+            class="flex lg:flex-1 flex-col justify-center items-center space-y-4"
+          >
             <div
               class="radial-progress text-green-500 font-extrabold"
               style="--value: 95"
@@ -188,9 +194,13 @@
               95%
             </div>
             <h4 class="text-xl font-semibold">Experienced Coach</h4>
-            <p class="text-base font-normal">Dummy</p>
+            <p class="text-base font-normal text-[#13131899] text-center">
+              Optimize your game with our hockey club's seasoned coach.
+            </p>
           </div>
-          <div class="flex flex-col justify-center items-center space-y-4">
+          <div
+            class="flex lg:flex-1 flex-col justify-center items-center space-y-4"
+          >
             <div
               class="radial-progress text-amber-400 font-extrabold"
               style="--value: 90"
@@ -199,9 +209,14 @@
               90%
             </div>
             <h4 class="text-xl font-semibold">Senior Player</h4>
-            <p class="text-base font-normal">Dummy</p>
+            <p class="text-base font-normal text-[#13131899] text-center">
+              Unleash the wisdom of experience in our hockey club boasts a
+              seasoned senior player.
+            </p>
           </div>
-          <div class="flex flex-col justify-center items-center space-y-4">
+          <div
+            class="flex lg:flex-1 flex-col justify-center items-center space-y-4"
+          >
             <div
               class="radial-progress text-blue-600 font-extrabold"
               style="--value: 80"
@@ -210,7 +225,10 @@
               80%
             </div>
             <h4 class="text-xl font-semibold">Training Ground</h4>
-            <p class="text-base font-normal">Dummy</p>
+            <p class="text-base font-normal text-[#13131899] text-center">
+              Hone your skills on our state-of-the-art training ground at the
+              hockey club.
+            </p>
           </div>
         </div>
       </section>
@@ -704,7 +722,7 @@
               <div class="flex-1 space-y-4 basis-full">
                 <h5 class="font-bold text-xl">Message</h5>
                 <textarea
-                  class="textarea resize-none bg-[#13131809] w-full h-[40vh]"
+                  class="textarea resize-none bg-[#13131809] w-full h-[20vh] lg:h-[40vh]"
                   placeholder="Write your message"
                 ></textarea>
                 <a
@@ -715,8 +733,70 @@
             </div>
           </div>
         </div>
+        <!-- social links -->
+        <div
+          class="mt-6 p-6 lg:p-8 lg:mt-12 bg-[#13131809] text-center rounded-lg space-y-4"
+        >
+          <h4 class="font-extrabold text-2xl">Social Media</h4>
+          <div class="flex items-center justify-center gap-6 text-2xl">
+            <a href="https://www.twitter.com/" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="https://www.github.com/" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- footer section -->
+    <footer class="bg-[#131318] text-white">
+      <div class="footer lg:justify-between container mx-auto p-10 lg:p-24">
+        <aside class="space-y-3">
+          <h3 class="font-extrabold text-2xl">Get In Touch</h3>
+          <p class="leading-6 opacity-60">
+            Connect seamlessly with our team and <br />stay informed about the
+            hockey tournament.
+          </p>
+          <div class="flex gap-4 items-center">
+            <div><img src="./Images/foot2.png" alt="" /></div>
+            <p class="opacity-60">hockeys@support.com</p>
+          </div>
+          <div class="flex gap-4 items-center">
+            <div><img src="./Images/foot1.png" alt="" /></div>
+            <p class="opacity-60">(+62) 123-321-543</p>
+          </div>
+        </aside>
+        <nav class="space-y-1">
+          <header class="footer-title opacity-100">Company</header>
+          <a class="link link-hover opacity-60">About us </a>
+          <a class="link link-hover opacity-60">Leadership</a>
+          <a class="link link-hover opacity-60">Careers</a>
+          <a class="link link-hover opacity-60">News & Article</a>
+          <a class="link link-hover opacity-60">Legal Notice</a>
+        </nav>
+        <nav class="space-y-1">
+          <header class="footer-title opacity-100">Support</header>
+          <a class="link link-hover opacity-60">Help Center </a>
+          <a class="link link-hover opacity-60">FAQ</a>
+          <a class="link link-hover opacity-60">Ticket Support</a>
+          <a class="link link-hover opacity-60">Contact Us</a>
+        </nav>
+        <nav class="space-y-1">
+          <header class="footer-title opacity-100">Services</header>
+          <a class="link link-hover opacity-60">Academy </a>
+          <a class="link link-hover opacity-60">Group Lesson</a>
+          <a class="link link-hover opacity-60">Private Lesson</a>
+          <a class="link link-hover opacity-60">Hockeys for kids</a>
+          <a class="link link-hover opacity-60">Hockeys for Adult</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
